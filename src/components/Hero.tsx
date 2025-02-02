@@ -1,8 +1,6 @@
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { useTheme } from "./theme/theme-provider";
-import { Button } from "@/components/ui/button";
-import { useEffect } from "react";
 import useScreenSize from "@/hooks/useScreenSize";
 
 export function Hero() {
@@ -44,7 +42,7 @@ export function Hero() {
 
   return (
     <>
-      <div className="h-[50rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="h-screen relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore
             id="tsparticlesfullpage"
@@ -66,7 +64,7 @@ export function Hero() {
             Welcome to my portfolio!
           </h1>
 
-          <button className="font-primary mt-20 shadow-[inset_0_0_0_2px_#616467] text-black px-6 py-4 sm:px-12 sm:py-6 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 z-20 text-lg lg:text-2xl">
+          <button className="font-primary mt-20 shadow-[inset_0_0_0_2px_#616467] text-black px-6 py-4 sm:px-12 sm:py-6 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 z-20 text-lg lg:text-2xl cursor-pointer">
             Learn more about me!
           </button>
         </div>

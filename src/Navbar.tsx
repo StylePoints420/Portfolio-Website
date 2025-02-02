@@ -5,8 +5,8 @@ import { Outlet } from "react-router";
 
 const Navbar = () => {
   return (
-    <>
-      <div className="hidden md:grid grid-cols-3 justify-items-center items-center h-20 dark:dark bg-transparent">
+    <div className="sticky top-0 left-0 z-50 scroll-smooth">
+      <div className="hidden md:grid grid-cols-3 justify-items-center items-center h-20 dark:dark bg-transparent  ">
         <span className="border-teal-400 rounded-xl h-16 w-16 border-3 text-3xl font-headers flex items-center justify-center font-bold  hover:animate-pulse transition-all delay-150 duration-300 ease-in-out ">
           RP
         </span>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <Drawer />
       </div>
       <Outlet />
-    </>
+    </div>
   );
 };
 
