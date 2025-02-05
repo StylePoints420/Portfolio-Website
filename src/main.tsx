@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Navbar from "./Navbar.tsx";
 import { ThemeProvider } from "./components/theme/theme-provider.tsx";
+import PageNotFound from "./pages/PageNotFound.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")!).render(
           <Route element={<Navbar />}>
             <Route index element={<App />} />
           </Route>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

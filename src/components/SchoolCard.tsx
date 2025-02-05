@@ -12,8 +12,10 @@ import { ArrowBigRight } from "lucide-react";
 interface Props {
   cardContainerClass: string;
   schoolName: string;
+  gradeLevel: string;
   course: string;
   schoolImages: string[];
+  schoolLink: string;
 }
 
 export function SchoolCard(props: Props) {
@@ -24,6 +26,8 @@ export function SchoolCard(props: Props) {
           {props.schoolName}
         </CardTitle>
         <CardDescription className="text-sm: md:text-xl">
+          {props.gradeLevel}
+          <br></br>
           {props.course}
         </CardDescription>
       </CardHeader>
@@ -33,8 +37,8 @@ export function SchoolCard(props: Props) {
         </div>
       </CardContent>
       <CardFooter className="flex justify-center ">
-        <a href="https://www.facebook.com/NCST.OfficialPage" target="_blank">
-          <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 hover:bg-black dark:hover:bg-white dark:hover:text-black w-48 cursor-pointer">
+        <a href={props.schoolLink} target="_blank">
+          <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black w-48 cursor-pointer">
             View it here
             <ArrowBigRight className="inline w-6 h-6" />
           </button>

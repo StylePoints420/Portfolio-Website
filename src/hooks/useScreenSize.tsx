@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
 
-const useScreenSize = () => {
-  const [isMobileView, setMobileView] = useState(window.innerWidth <= 425);
+interface Props {
+  customWidth?: number;
+}
+
+const useScreenSize = ({ customWidth = 425 }: Props = {}) => {
+  const [isMobileView, setMobileView] = useState(
+    window.innerWidth <= customWidth
+  );
 
   useEffect(() => {
     const handleResize = () => {

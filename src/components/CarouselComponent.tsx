@@ -7,14 +7,21 @@ import {
 } from "@/components/ui/carousel";
 
 import { Card, CardContent } from "@/components/ui/card";
+import AutoScroll from "embla-carousel-auto-scroll";
+import useScreenSize from "@/hooks/useScreenSize";
 
 interface Props {
   schoolImages: string[];
 }
 
 const CarouselComponent = (props: Props) => {
+  const isSmallScreen = useScreenSize({ customWidth: 639 });
+
   return (
-    <Carousel className="w-[450px]">
+    <Carousel
+      className="w-[450px]"
+      plugins={isSmallScreen ? [AutoScroll({ speed: 1 })] : undefined}
+    >
       <CarouselContent>
         {props.schoolImages.map((img, index) => (
           <CarouselItem key={index}>
@@ -34,8 +41,12 @@ const CarouselComponent = (props: Props) => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselNext />
-      <CarouselPrevious />
+      {isSmallScreen ? null : (
+        <>
+          <CarouselNext />
+          <CarouselPrevious />
+        </>
+      )}
     </Carousel>
   );
 };
