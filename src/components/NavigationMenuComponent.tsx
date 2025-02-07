@@ -6,15 +6,24 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Link } from "react-router";
+import { HashLink } from "react-router-hash-link";
 
 export type Props = {
-  className: string;
+  className?: string;
 };
 
 const NavigationMenuComponent = (props: Props) => {
   return (
     <NavigationMenu>
       <NavigationMenuList className={props.className}>
+        <NavigationMenuItem>
+          <HashLink smooth to="/#education">
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Education
+            </NavigationMenuLink>
+          </HashLink>
+        </NavigationMenuItem>
+
         <NavigationMenuItem>
           <Link to="/docs">
             <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>

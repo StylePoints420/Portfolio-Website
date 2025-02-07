@@ -2,40 +2,41 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { useTheme } from "./theme/theme-provider";
 import useScreenSize from "@/hooks/useScreenSize";
+import { HashLink } from "react-router-hash-link";
+
+const initialWords = [
+  {
+    text: "Hello",
+    className: " md:text-5xl text-3xl lg:text-6xl",
+  },
+  {
+    text: "There,",
+    className: "md:text-5xl text-3xl lg:text-6xl",
+  },
+  {
+    text: "I'm",
+    className: "md:text-5xl text-3xl lg:text-6xl",
+  },
+  {
+    text: "Joe!👋",
+    className:
+      "md:text-5xl text-3xl lg:text-6xl text-teal-500 dark:text-teal-500",
+  },
+];
+
+const slicedWords = [
+  {
+    text: "I'm",
+    className: "md:text-5xl text-3xl lg:text-6xl",
+  },
+  {
+    text: "Joe!👋",
+    className:
+      "md:text-5xl text-3xl lg:text-6xl text-teal-500 dark:text-teal-500",
+  },
+];
 
 export function Hero() {
-  const initialWords = [
-    {
-      text: "Hello",
-      className: " md:text-5xl text-3xl lg:text-6xl",
-    },
-    {
-      text: "There,",
-      className: "md:text-5xl text-3xl lg:text-6xl",
-    },
-    {
-      text: "I'm",
-      className: "md:text-5xl text-3xl lg:text-6xl",
-    },
-    {
-      text: "Joe!👋",
-      className:
-        "md:text-5xl text-3xl lg:text-6xl text-teal-500 dark:text-teal-500",
-    },
-  ];
-
-  const slicedWords = [
-    {
-      text: "I'm",
-      className: "md:text-5xl text-3xl lg:text-6xl",
-    },
-    {
-      text: "Joe!👋",
-      className:
-        "md:text-5xl text-3xl lg:text-6xl text-teal-500 dark:text-teal-500",
-    },
-  ];
-
   const isMobile = useScreenSize();
 
   const { theme } = useTheme();
@@ -64,9 +65,13 @@ export function Hero() {
             Welcome to my portfolio!
           </h1>
 
-          <button className="font-primary mt-20 shadow-[inset_0_0_0_2px_#616467] text-black px-6 py-4 sm:px-12 sm:py-6 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 z-20 text-lg lg:text-2xl cursor-pointer">
+          <HashLink
+            smooth
+            to="/#education"
+            className="font-primary mt-20 shadow-[inset_0_0_0_2px_#616467] text-black px-6 py-4 sm:px-12 sm:py-6 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 z-20 text-lg lg:text-2xl cursor-pointer"
+          >
             Learn more about me!
-          </button>
+          </HashLink>
         </div>
       </div>
     </>

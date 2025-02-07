@@ -31,6 +31,7 @@ const PageNotFound = () => {
 
         {isSmallScreen ? null : (
           <div>
+            {/* //TODO: include in README file: https://pixabay.com/illustrations/warning-error-error-code-mistake-8908707/ for the image source */}
             <img
               src={notFoundImage}
               alt="404 ERROR"

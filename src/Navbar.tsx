@@ -10,7 +10,7 @@ const Navbar = () => {
         <span className="border-teal-400 rounded-xl h-16 w-16 border-3 text-3xl font-headers flex items-center justify-center font-bold  hover:animate-pulse transition-all delay-150 duration-300 ease-in-out ">
           RP
         </span>
-        <NavigationMenuComponent className="" />
+        <NavigationMenuComponent />
         <ModeToggle />
       </div>
       <div className="flex justify-end items-center md:hidden mt-3 mr-2">

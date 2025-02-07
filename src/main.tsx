@@ -12,8 +12,9 @@ createRoot(document.getElementById("root")!).render(
       <BrowserRouter>
         <Routes>
           <Route element={<Navbar />}>
-            <Route index element={<App />} />
+            <Route path="/" element={<App />} />
           </Route>
+          {/* Catch all path, will return 404 error page if no valid path found. */}
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
