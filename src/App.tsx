@@ -6,8 +6,12 @@ function App() {
   return (
     <div className="grid gap-20">
       <Hero />
-      <TimelineComponent />
-      <SkillSection />
+      <div id="education">
+        <TimelineComponent />
+      </div>
+      <div id="skills">
+        <SkillSection />
+      </div>
     </div>
   );
 }

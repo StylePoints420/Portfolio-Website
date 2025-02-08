@@ -33,12 +33,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
+    // add top margin-20  to view education header text
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 mt-20"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto  px-4 md:px-8 lg:px-10" id="education">
-        <h2 className="text-lg md:text-6xl text-black dark:text-white max-w-4xl font-primary font-bold ">
+      <div className="max-w-7xl mx-auto  px-4 md:px-8 lg:px-10">
+        <h2 className="text-5xl md:text-7xl text-black dark:text-white max-w-4xl font-primary font-bold ">
           Education
         </h2>
       </div>
