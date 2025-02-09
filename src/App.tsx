@@ -1,4 +1,5 @@
 import { Hero } from "./components/Hero";
+import ProjectComponent from "./components/ProjectComponent";
 import SkillSection from "./components/SkillSection";
 import TimelineComponent from "./components/TimelineComponent";
 
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div id="skills">
         <SkillSection />
+      </div>
+      <div id="projects">
+        <ProjectComponent />
       </div>
     </div>
   );
