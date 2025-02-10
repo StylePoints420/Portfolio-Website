@@ -7,6 +7,7 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiMysql } from "react-icons/di";
@@ -31,6 +32,15 @@ const frontend = [
     hoverIconColor:
       "group-hover/feature:text-orange-500 transition duration-200",
     hoverTitleColor: "group-hover/feature:bg-orange-500",
+  },
+  {
+    title: "Tailwind CSS",
+    description:
+      "The utility-first CSS framework for rapidly building modern websites.",
+    icon: <RiTailwindCssFill size={40} />,
+    hoverColor: "to-sky-700",
+    hoverIconColor: "group-hover/feature:text-sky-500 transition duration-200",
+    hoverTitleColor: "group-hover/feature:bg-sky-500",
   },
   {
     title: "CSS3",
