@@ -32,7 +32,7 @@
     "embla-carousel-auto-scroll": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "express": "^4.21.2",
-    "framer-motion": "^12.4.1",
+    "framer-motion": "^12.4.2",
     "lucide-react": "^0.474.0",
     "mini-svg-data-uri": "^1.4.4",
     "nodejs": "^0.0.0",

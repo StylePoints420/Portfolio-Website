@@ -1,6 +1,7 @@
 import Features from "@/components/ui/features-grid";
 import { frontend, backend, tools } from "@/constants/skills";
 import ColourfulText from "@/components/ui/colourful-text";
+import { Link } from "lucide-react";
 
 const SkillSection = () => {
   return (
@@ -9,7 +10,7 @@ const SkillSection = () => {
       <div className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 mt-20">
         <div className="max-w-7xl mx-auto  px-4 md:px-8 lg:px-10">
           <h2 className="text-5xl md:text-7xl mb-10 text-black dark:text-white max-w-4xl font-primary font-bold ">
-            Skills
+            <Link className="inline w-8 h-8 md:w-10 md:h-10" /> Skills
           </h2>
         </div>
         {/* frontend */}

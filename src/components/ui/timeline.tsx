@@ -5,6 +5,7 @@ import {
   useTransform,
   motion,
 } from "framer-motion";
+import { Link } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
@@ -40,7 +41,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto  px-4 md:px-8 lg:px-10">
         <h2 className="text-5xl md:text-7xl text-black dark:text-white max-w-4xl font-primary font-bold ">
-          Education
+          <Link className="inline w-8 h-8 md:w-10 md:h-10" />
+          {""} Education
         </h2>
       </div>
 

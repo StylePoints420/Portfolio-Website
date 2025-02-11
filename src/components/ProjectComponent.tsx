@@ -5,6 +5,7 @@ import erpSystem from "@/images/ERP_System.png";
 import { useDialog } from "@/hooks/useDialog";
 import ProjectDialogComponent from "./ProjectDialogComponent";
 import DijkstraQuoteComponent from "./DijkstraQuoteComponent";
+import { Link } from "lucide-react";
 
 const slideData = [
   {
@@ -25,10 +26,10 @@ const ProjectComponent = () => {
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10 mt-20">
         <h2 className="text-5xl md:text-7xl  text-black dark:text-white max-w-4xl font-primary font-bold ">
-          Projects
+          <Link className="inline w-8 h-8 md:w-10 md:h-10" /> Projects
         </h2>
       </div>
-      <div className="grid justify-items-center items-center min-h-[100vh] w-full overflow-hidden ">
+      <div className="grid justify-items-center items-center min-h-[50vh] sm:min-h-[100vh] w-full overflow-hidden ">
         {/* remove the quote if screen size < 1024 pixels */}
         {isSmallScreen ? null : <DijkstraQuoteComponent />}
 

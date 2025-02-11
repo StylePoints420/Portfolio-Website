@@ -32,7 +32,7 @@ const TimelineComponent = () => {
       content: (
         <div>
           <SchoolCard
-            cardContainerClass="w-[250px] sm:w-[550px] font-primary h-full lg:h-[41rem]"
+            cardContainerClass="w-[250px] md:w-[400px] lg:w-[550px] font-primary h-full lg:h-[41rem]"
             gradeLevel="Junior High School"
             course={""}
             schoolName={schools[2]}
@@ -47,7 +47,7 @@ const TimelineComponent = () => {
       content: (
         <div>
           <SchoolCard
-            cardContainerClass="w-[250px] sm:w-[550px] font-primary h-full lg:h-[43rem]"
+            cardContainerClass="w-[250px] md:w-[400px] lg:w-[550px] font-primary h-full lg:h-[43rem]"
             gradeLevel="Senior High School"
             course={"ICT - Computer Programming"}
             schoolName={schools[1]}
@@ -62,7 +62,7 @@ const TimelineComponent = () => {
       content: (
         <div>
           <SchoolCard
-            cardContainerClass="w-[250px] sm:w-[550px] font-primary h-full lg:h-[43rem]"
+            cardContainerClass="w-[250px] md:w-[400px]  lg:w-[550px] font-primary h-full lg:h-[43rem]"
             gradeLevel="College"
             course={"Bachelor of Science in Information Technology"}
             schoolName={schools[0]}

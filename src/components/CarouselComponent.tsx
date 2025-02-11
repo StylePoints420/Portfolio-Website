@@ -15,7 +15,7 @@ interface Props {
 }
 
 const CarouselComponent = (props: Props) => {
-  const isSmallScreen = useScreenSize({ customWidth: 639 });
+  const isSmallScreen = useScreenSize({ customWidth: 786 });
 
   return (
     <Carousel

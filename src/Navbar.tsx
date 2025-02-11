@@ -5,8 +5,10 @@ import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    // TODO: There's some issue in navbar on tablet size screens (md:) - navbar width is not max for some reason. Fix.
-    <div className="sticky top-0 left-0 z-50 scroll-smooth border-b-1 bg-white dark:bg-black max-w-[100%]">
+    <div
+      className="sticky top-0 left-0 z-50 scroll-smooth border-b-1 bg-white dark:bg-black max-w-[100%]"
+      id="navbar"
+    >
       <div className="hidden md:flex justify-evenly items-center h-20 dark:dark bg-transparent w-full">
         <HashLink
           smooth

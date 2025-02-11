@@ -1,3 +1,4 @@
+import FooterComponent from "./components/FooterComponent";
 import { Hero } from "./components/Hero";
 import ProjectComponent from "./components/ProjectComponent";
 import SkillSection from "./components/SkillSection";
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div id="projects">
         <ProjectComponent />
+      </div>
+      <div id="footer">
+        <FooterComponent />
       </div>
     </div>
   );
