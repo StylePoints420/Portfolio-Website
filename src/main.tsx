@@ -6,7 +6,10 @@ import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 
 import "./styles.css";
+// Analytics
 import reportWebVitals from "./reportWebVitals.ts";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // Create a new router instance
 const router = createRouter({
@@ -32,6 +35,9 @@ if (rootElement && !rootElement.innerHTML) {
   root.render(
     <StrictMode>
       <RouterProvider router={router} />
+      {/* use vercel analytics and speed insights */}
+      <Analytics />
+      <SpeedInsights />
     </StrictMode>
   );
 }
