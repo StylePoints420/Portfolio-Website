@@ -2,11 +2,13 @@ import type { EducationData, SkillData } from "@/types/types";
 import { getJSONData } from "@/utils/getJSONData";
 import { test, expect } from "vitest";
 
+const baseURL = import.meta.env.VITE_BASE_URL;
+
 test("return the correct JSON data based on the json file used", async () => {
   // education details JSON data
   expect(
     await getJSONData<Array<EducationData>>(
-      "http://localhost:3000/public/json/education-details.json"
+      `${baseURL}/json/education-details.json`
     )
   ).toStrictEqual([
     {
@@ -42,7 +44,7 @@ test("return the correct JSON data based on the json file used", async () => {
   //   project details JSON data
   expect(
     await getJSONData<Array<EducationData>>(
-      "http://localhost:3000/public/json/project-details.json"
+      `${baseURL}/json/project-details.json`
     )
   ).toStrictEqual([
     {
@@ -307,9 +309,7 @@ test("return the correct JSON data based on the json file used", async () => {
 
   // skill details JSON data
   expect(
-    await getJSONData<Array<SkillData>>(
-      "http://localhost:3000/public/json/skill-details.json"
-    )
+    await getJSONData<Array<SkillData>>(`${baseURL}/json/skill-details.json`)
   ).toStrictEqual([
     {
       title: "React",
