@@ -1,0 +1,108 @@
+[
+  {
+    "title": "React",
+    "group": "Frontend",
+    "hoverColor": "to-sky-900",
+    "hoverIconColor": "group-hover/feature:text-sky-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-sky-400"
+  },
+  {
+    "title": "HTML5",
+    "group": "Frontend",
+    "hoverColor": "to-orange-900",
+    "hoverIconColor": "group-hover/feature:text-orange-500 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-orange-500"
+  },
+  {
+    "title": "Tailwind CSS",
+    "group": "Frontend",
+    "hoverColor": "to-sky-700",
+    "hoverIconColor": "group-hover/feature:text-sky-500 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-sky-500"
+  },
+  {
+    "title": "CSS3",
+    "group": "Frontend",
+    "hoverColor": "to-blue-900",
+    "hoverIconColor": "group-hover/feature:text-blue-500 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-blue-500"
+  },
+  {
+    "title": "Node/Express",
+    "group": "Backend",
+    "hoverColor": "to-green-900",
+    "hoverIconColor": "group-hover/feature:text-green-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-green-400"
+  },
+  {
+    "title": "MySQL",
+    "group": "Backend",
+    "hoverColor": "to-teal-900",
+    "hoverIconColor": "group-hover/feature:text-teal-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-teal-400"
+  },
+  {
+    "title": "PostgreSQL",
+    "group": "Backend",
+    "hoverColor": "to-[#336791]",
+    "hoverIconColor": "group-hover/feature:text-[#336791] transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-[#336791]"
+  },
+  {
+    "title": "Firebase",
+    "group": "Backend",
+    "hoverColor": "to-amber-900",
+    "hoverIconColor": "group-hover/feature:text-amber-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-amber-400"
+  },
+  {
+    "title": "JavaScript",
+    "group": "Languages & Tools",
+    "hoverColor": "to-yellow-600 dark:to-yellow-500",
+    "hoverIconColor": "group-hover/feature:text-yellow-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-yellow-400"
+  },
+  {
+    "title": "TypeScript",
+    "group": "Languages & Tools",
+    "hoverColor": "to-[#3178C6]",
+    "hoverIconColor": "group-hover/feature:text-[#3178C6] transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-[#3178C6]"
+  },
+  {
+    "title": "Git",
+    "group": "Languages & Tools",
+    "hoverColor": "to-red-900",
+    "hoverIconColor": "group-hover/feature:text-red-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-red-400"
+  },
+  {
+    "title": "GitHub",
+    "group": "Languages & Tools",
+    "hoverColor": "to-gray-900",
+    "hoverIconColor": "group-hover/feature:text-gray-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-gray-400"
+  },
+  {
+    "title": "Docker",
+    "group": "Languages & Tools",
+    "hoverColor": "to-[#0db7ed]",
+    "hoverIconColor": "group-hover/feature:text-[#0db7ed] transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-[#0db7ed]"
+  },
+
+  {
+    "title": "Postman",
+    "group": "Languages & Tools",
+    "hoverColor": "to-yellow-800",
+    "hoverIconColor": "group-hover/feature:text-orange-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-orange-400"
+  },
+  {
+    "title": "Google Cloud Platform",
+    "group": "Languages & Tools",
+    "hoverColor": "to-blue-900",
+    "hoverIconColor": "group-hover/feature:text-blue-400 transition duration-200",
+    "hoverTitleColor": "group-hover/feature:bg-blue-400"
+  }
+]

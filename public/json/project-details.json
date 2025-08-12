@@ -1,0 +1,248 @@
+[
+  {
+    "projectID": "grynWasabi",
+    "projectTitle": "Gryn Wasabi Sushi Bar",
+    "projectLink": "https://gryn-wasabi-sushi-bar-test.onrender.com",
+    "shortDescription": "Enterprise Resource Planning Capstone Project",
+    "features": [
+      {
+        "description": "E-commerce customer website with intuitive UI/UX",
+        "status": "done"
+      },
+      {
+        "description": "Add to cart and user-friendly checkout experience",
+        "status": "done"
+      },
+      {
+        "description": "Voucher and discount system",
+        "status": "done"
+      },
+      {
+        "description": "Order history and live delivery tracking",
+        "status": "done"
+      },
+      {
+        "description": "Real-time chat support for customer tickets",
+        "status": "done"
+      },
+      {
+        "description": "Secure online payments with multiple payment options",
+        "status": "done"
+      },
+      {
+        "description": "Fast and reliable authentication system",
+        "status": "done"
+      },
+      {
+        "description": "Automated email notifications for order updates",
+        "status": "done"
+      },
+      {
+        "description": "Location-based services for enhanced user experience",
+        "status": "done"
+      },
+      {
+        "description": "Job postings and online applications",
+        "status": "done"
+      }
+    ],
+    "imageSrc": [
+      {
+        "src": "/images/projects/gryn-wasabi/cart.png",
+        "darkSrc": "/images/projects/gryn-wasabi/cart.png",
+        "alt": "cart"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/checkout.png",
+        "darkSrc": "/images/projects/gryn-wasabi/checkout.png",
+        "alt": "checkout"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/payment-success.png",
+        "darkSrc": "/images/projects/gryn-wasabi/payment-success.png",
+        "alt": "payment success"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/track-order.png",
+        "darkSrc": "/images/projects/gryn-wasabi/track-order.png",
+        "alt": "track order"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/order-history.png",
+        "darkSrc": "/images/projects/gryn-wasabi/order-history.png",
+        "alt": "order history"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/delivery-tracking.png",
+        "darkSrc": "/images/projects/gryn-wasabi/delivery-tracking.png",
+        "alt": "delivery tracking"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/chat-history.png",
+        "darkSrc": "/images/projects/gryn-wasabi/chat-history.png",
+        "alt": "chat history"
+      }
+    ],
+
+    "adminFeatures": [
+      {
+        "description": "7 ERP Modules",
+        "status": "done"
+      },
+      {
+        "description": "Role Based Access Control (RBAC) for managing employees, roles and permissions",
+        "status": "done"
+      },
+      {
+        "description": "Google Maps Integration for drivers",
+        "status": "done"
+      },
+      {
+        "description": "Action and Login Logs notifications for monitoring",
+        "status": "done"
+      },
+      {
+        "description": "Branch Sales/Expenses, Customers, Budget and Overall Summary through charts",
+        "status": "done"
+      },
+      {
+        "description": "Automated email notifications for purchase requests, order status and sensitive user actions",
+        "status": "done"
+      },
+      {
+        "description": "Approval process workflow across modules to ensure proper business process operations",
+        "status": "done"
+      }
+    ],
+    "adminImageSrc": [
+      {
+        "src": "/images/projects/gryn-wasabi/admin/dashboard.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/dashboard-dark.png",
+        "alt": "Admin Dashboard"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/dashboard2.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/dashboard2-dark.png",
+        "alt": "Admin Dashboard Bar Graph"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/orders.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/orders-dark.png",
+        "alt": "Order Management"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/chat-history.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/chat-history-dark.png",
+        "alt": "Customer Ticket Chat History"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/customer-stats.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/customer-stats-dark.png",
+        "alt": "Customer Management System Graph"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/products.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/products-dark.png",
+        "alt": "Inventory Management - Products Page"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/sales-management.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/sales-management-dark.png",
+        "alt": "Sales Management Graph"
+      },
+      {
+        "src": "/images/projects/gryn-wasabi/admin/payroll.png",
+        "darkSrc": "/images/projects/gryn-wasabi/admin/payroll-dark.png",
+        "alt": "Human Resource Management - Employee Payroll"
+      }
+    ],
+    "haveAdmin": true,
+    "haveDemo": true,
+    "videoSrc": "https://www.youtube.com/embed/FivfB8EGkzk?si=UJQhpaDMp0K792Aj",
+    "thumbNailSrc": "/images/projects/gryn-wasabi/gryn-wasabi-demo.png",
+    "thumbnailAlt": "Gryn Wasabi Demonstration Video"
+  },
+  {
+    "projectID": "shigotoVault",
+    "projectTitle": "Shigoto Vault (In Progress)",
+    "projectLink": "https://github.com/StylePoints420/shigoto-vault",
+    "shortDescription": "Job Application Tracker Side Project",
+    "features": [
+      {
+        "description": "Maximum import of 5 links at once",
+        "status": "done"
+      },
+      {
+        "description": "Table functions - Pinning, hiding, sorting and searching",
+        "status": "done"
+      },
+      {
+        "description": "Import through Jobstreet links",
+        "status": "done"
+      },
+      {
+        "description": "Import through LinkedIn links",
+        "status": "pending"
+      },
+      {
+        "description": "Import through Excel files",
+        "status": "pending"
+      },
+      {
+        "description": "Visual summary of job applications through charts",
+        "status": "pending"
+      },
+      {
+        "description": "Company reviews",
+        "status": "pending"
+      },
+      {
+        "description": "Global/User filters for charts",
+        "status": "pending"
+      },
+      {
+        "description": "Setting interview meetings/schedules in event calendar",
+        "status": "pending"
+      },
+      {
+        "description": "Interview meetings reminder through email notifications",
+        "status": "pending"
+      }
+    ],
+    "imageSrc": [
+      {
+        "src": "/images/projects/shigoto-vault/projects-route/job-applications.png",
+        "darkSrc": "/images/projects/shigoto-vault/projects-route/job-applications-dark.png",
+        "alt": "Job Applications Page"
+      },
+      {
+        "src": "/images/projects/shigoto-vault/projects-route/import-links.png",
+        "darkSrc": "/images/projects/shigoto-vault/projects-route/import-links-dark.png",
+        "alt": "Import Through Links Dialog"
+      },
+      {
+        "src": "/images/projects/shigoto-vault/projects-route/add-manual.png",
+        "darkSrc": "/images/projects/shigoto-vault/projects-route/add-manual-dark.png",
+        "alt": "Job Applications Page"
+      },
+
+      {
+        "src": "/images/projects/shigoto-vault/projects-route/add-manual-step2.png",
+        "darkSrc": "/images/projects/shigoto-vault/projects-route/add-manual-step2-dark.png",
+        "alt": "Job Applications Page"
+      },
+      {
+        "src": "/images/projects/shigoto-vault/projects-route/add-manual-step3.png",
+        "darkSrc": "/images/projects/shigoto-vault/projects-route/add-manual-step3-dark.png",
+        "alt": "Job Applications Page"
+      }
+    ],
+    "adminFeatures": [],
+    "adminImageSrc": [],
+    "haveAdmin": false,
+    "haveDemo": false,
+    "videoSrc": "",
+    "thumbNailSrc": "",
+    "thumbnailAlt": ""
+  }
+]

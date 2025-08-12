@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Our Lady Of Remedios Montessori School",
+    "description": "Junior High School",
+    "imageName": "olrms",
+    "extension": ".jpg",
+    "alt": "OLRMS Junior High School",
+    "link": "https://www.facebook.com/OLRMS",
+    "year": "2019"
+  },
+  {
+    "title": "Philippine Christian University",
+    "description": "Senior High School \n ICT - Computer Programming",
+    "imageName": "pcu",
+    "extension": ".jpg",
+    "indexNumber": 0,
+    "alt": "PCU Senior High School",
+    "link": "https://www.facebook.com/PCUDASMASHS",
+    "year": "2021"
+  },
+  {
+    "title": "National College Of Science And Technology",
+    "description": "College \n Bachelor of Science in Information Technology",
+    "imageName": "ncst",
+    "extension": ".jpg",
+    "alt": "NCST College",
+    "link": "https://www.facebook.com/NCST.OfficialPage",
+    "year": "August 2025"
+  }
+]
