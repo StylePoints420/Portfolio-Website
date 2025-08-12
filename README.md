@@ -44,7 +44,7 @@ Welcome to my portfolio!
 
 ### Pictures
 
-- - **404 Page Image** – [Pixabay](https://pixabay.com/illustrations/warning-error-error-code-mistake-8908707/)
+- **404 Page Image** – [Pixabay](https://pixabay.com/illustrations/warning-error-error-code-mistake-8908707/)
 
 ### Project Structure
 
