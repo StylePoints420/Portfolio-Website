@@ -1,5 +1,7 @@
 # Portfolio Website
 
+**Welcome to my portfolio!** :wave:
+
 ## How to use this Project
 
 1. Clone the project
@@ -27,26 +29,24 @@ npm run build
 npm run serve
 ```
 
-Welcome to my portfolio!
-
-### Tech Stack
+## Tech Stack
 
 - **React**
 - **Typescript**
 - **Tanstack Router**
 - **Tailwind CSS**
 
-### UI Libraries
+## UI Libraries
 
 - **shadcn/ui** - [A modern and flexible UI components](https://ui.shadcn.com/).
 - **Aceternity UI** - Check their website [here](https://ui.aceternity.com/).
 - **Magic UI** - Check their website [here](https://magicui.design/).
 
-### Pictures
+## Pictures
 
 - **404 Page Image** – [Pixabay](https://pixabay.com/illustrations/warning-error-error-code-mistake-8908707/)
 
-### Project Structure
+## Project Structure
 
 ```bash
 src
