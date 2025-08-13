@@ -4,6 +4,7 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import { Link } from "@tanstack/react-router";
+import type { SetStateAction } from "react";
 
 const linkArray: string[] = [
   "home",
@@ -15,9 +16,10 @@ const linkArray: string[] = [
 
 interface NavLinksProps {
   className?: string;
+  setOpen: React.Dispatch<SetStateAction<boolean>>;
 }
 
-export default function NavLinks({ className }: NavLinksProps) {
+export default function NavLinks({ className, setOpen }: NavLinksProps) {
   return (
     <NavigationMenu>
       <NavigationMenuList className={className}>
@@ -34,6 +36,14 @@ export default function NavLinks({ className }: NavLinksProps) {
               activeOptions={{
                 includeHash: true,
                 exact: true,
+              }}
+              onClick={() => {
+                setOpen(false);
+                // Delay scroll so it happens after sheet closes
+                setTimeout(() => {
+                  const el = document.getElementById(link);
+                  el?.scrollIntoView({ behavior: "smooth" });
+                }, 300);
               }}
             >
               {link}

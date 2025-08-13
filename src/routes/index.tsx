@@ -13,11 +13,8 @@ import { getJSONData } from "@/utils/getJSONData";
 import SkillsSection from "@/components/sections/skills/skills-section";
 import ProjectSection from "@/components/sections/projects/project-section";
 import { DotPattern } from "@/components/ui/dot-pattern";
-import { Button } from "@/components/ui/button";
-import { useWindowScroll } from "react-use";
-import { IoArrowUpOutline } from "react-icons/io5";
-import { FloatingDock } from "@/components/ui/floating-dock";
 import FooterSection from "@/components/sections/footer/footer-section";
+import ScrollToTopButton from "@/components/scroll-to-top-button";
 
 const getEducationData = async () => {
   const educationResult: EducationData[] = await getJSONData(
@@ -38,10 +35,6 @@ export const Route = createFileRoute("/")({
 
 function App() {
   const { educationResult, skillResult } = Route.useLoaderData();
-
-  const { y } = useWindowScroll();
-
-  const hideScrollToTop = y >= 200;
 
   const data = educationResult.map((item, index) => {
     return {
@@ -74,19 +67,7 @@ function App() {
   return (
     <>
       <div className="relative">
-        <Button
-          className={`h-12 w-12 rounded-full z-50 fixed bottom-10 right-20 [&_svg:not([class*='size-'])]:size-5 cursor-pointer transition-all duration-500 ease-in-out ${hideScrollToTop ? "opacity-100 scale-100" : "opacity-0 scale-75 pointer-events-none"}`}
-          onClick={() => {
-            window.scrollTo({
-              top: 0,
-              behavior: "smooth",
-            });
-          }}
-          title="Scroll to top"
-          aria-label="Scroll to top button"
-        >
-          <IoArrowUpOutline />
-        </Button>
+        <ScrollToTopButton />
 
         <section id="home">
           <Hero />

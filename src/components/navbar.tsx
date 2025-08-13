@@ -2,8 +2,11 @@ import { Link } from "@tanstack/react-router";
 import NavLinks from "./nav-links";
 import MobileViewDrawer from "./mobile-view-drawer";
 import { ModeToggle } from "@/themes/mode-toggle";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="flex justify-end lg:justify-center items-center gap-2 sticky top-0 z-50 bg-transparent w-full backdrop-blur-sm ">
       <section className="hidden lg:flex justify-between mx-5 xl:mx-10 items-center h-20 dark:dark bg-transparent w-full z-50">
@@ -15,11 +18,11 @@ export default function Navbar() {
         >
           JP
         </Link>
-        <NavLinks className="font-primary font-extrabold" />
+        <NavLinks className="font-primary font-extrabold" setOpen={setOpen} />
         <ModeToggle />
       </section>
       <section className="flex justify-end items-center lg:hidden py-2">
-        <MobileViewDrawer />
+        <MobileViewDrawer open={open} setOpen={setOpen} />
       </section>
     </nav>
   );

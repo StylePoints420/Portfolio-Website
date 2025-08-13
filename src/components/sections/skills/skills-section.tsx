@@ -62,7 +62,7 @@ export default function SkillsSection({ data }: SkillsSectionProps) {
       });
 
   return (
-    <div className="max-w-full md:max-w-6xl mx-auto px-4 md:px-8 lg:px-10 py-20">
+    <div className="max-w-full md:max-w-6xl mx-auto px-4 md:px-8 lg:px-10 py-20 space-y-20">
       <h2 className="text-5xl md:text-7xl text-primary max-w-4xl font-headers font-bold">
         <LinkIcon className="inline w-8 h-8 md:w-13 md:h-13 mr-3" />
         Skills
@@ -73,7 +73,7 @@ export default function SkillsSection({ data }: SkillsSectionProps) {
             <ColourfulText text="Frontend" />
           </h2>
         </section>
-        <section className="grid justify-items-center md:justify-items-normal grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  relative z-10 py-10 px-10 max-w-7xl  font-primary ">
+        <section className="grid justify-items-center md:justify-items-normal grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  relative z-10 px-10 max-w-7xl  font-primary ">
           {renderTechStack("Frontend")}
         </section>
       </article>
@@ -84,7 +84,7 @@ export default function SkillsSection({ data }: SkillsSectionProps) {
             <ColourfulText text="Backend" />
           </h2>
         </section>
-        <section className="grid justify-items-center md:justify-items-normal grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  relative z-10 py-10 px-10 max-w-7xl  font-primary ">
+        <section className="grid justify-items-center md:justify-items-normal grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  relative z-10 px-10 max-w-7xl  font-primary ">
           {renderTechStack("Backend")}
         </section>
       </article>
@@ -95,7 +95,7 @@ export default function SkillsSection({ data }: SkillsSectionProps) {
             <ColourfulText text="Languages & Tools" />
           </h2>
         </section>
-        <section className="grid justify-items-center md:justify-items-normal grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  relative z-10 py-10 px-10 max-w-7xl  font-primary ">
+        <section className="grid justify-items-center md:justify-items-normal grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  relative z-10 px-10 max-w-7xl  font-primary ">
           {renderTechStack("Languages & Tools")}
         </section>
       </article>

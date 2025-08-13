@@ -112,7 +112,8 @@ export const TypewriterEffectSmooth = ({
   const wordsArray = words.map((word) => {
     return {
       ...word,
-      text: word.text.split(""),
+      // resolves the no glyph issue for wave icon
+      text: Array.from(word.text),
     };
   });
   const renderWords = () => {
