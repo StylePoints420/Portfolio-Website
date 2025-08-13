@@ -344,7 +344,7 @@ test("return the correct JSON data based on the json file used", async () => {
       hoverTitleColor: "group-hover/feature:bg-blue-500",
     },
     {
-      title: "Node/Express",
+      title: "Node Js",
       group: "Backend",
       hoverColor: "to-green-900",
       hoverIconColor:
@@ -352,8 +352,16 @@ test("return the correct JSON data based on the json file used", async () => {
       hoverTitleColor: "group-hover/feature:bg-green-400",
     },
     {
-      title: "MySQL",
+      title: "Express",
       group: "Backend",
+      hoverColor: "to-gray-800",
+      hoverIconColor:
+        "group-hover/feature:text-gray-400 transition duration-200",
+      hoverTitleColor: "group-hover/feature:bg-gray-600",
+    },
+    {
+      title: "MySQL",
+      group: "Database",
       hoverColor: "to-teal-900",
       hoverIconColor:
         "group-hover/feature:text-teal-400 transition duration-200",
@@ -361,7 +369,7 @@ test("return the correct JSON data based on the json file used", async () => {
     },
     {
       title: "PostgreSQL",
-      group: "Backend",
+      group: "Database",
       hoverColor: "to-[#336791]",
       hoverIconColor:
         "group-hover/feature:text-[#336791] transition duration-200",
@@ -369,7 +377,7 @@ test("return the correct JSON data based on the json file used", async () => {
     },
     {
       title: "Firebase",
-      group: "Backend",
+      group: "Database",
       hoverColor: "to-amber-900",
       hoverIconColor:
         "group-hover/feature:text-amber-400 transition duration-200",

@@ -116,9 +116,6 @@ function App() {
 
           <ProjectSection />
         </section>
-        <section>
-          <FooterSection />
-        </section>
       </div>
     </>
   );
