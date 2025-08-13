@@ -2,6 +2,12 @@
 
 **Welcome to my portfolio!** :wave:
 
+## Versions
+
+1. Latest Version - [joe-pascua.dev](https://www.joe-pascua.dev)
+
+2. Legacy Version - [v0.joe-pascua.dev](https://v0.joe-pascua.dev)
+
 ## How to use this Project
 
 1. Clone the project
