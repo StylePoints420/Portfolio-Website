@@ -65,6 +65,9 @@ export default function ProjectCarousel({
           opts={{
             align: "start",
             loop: true,
+            // disable drag action for carousel due to mobile scroll UX issue
+            dragFree: false,
+            watchDrag: false,
           }}
           setApi={setApi}
         >

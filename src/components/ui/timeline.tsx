@@ -13,17 +13,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
-    // add a small delay to calculate final height
-    const subscribe = setTimeout(() => {
-      if (ref.current) {
-        const rect = ref.current.getBoundingClientRect();
-
-        setHeight(rect.height);
+    if (!ref.current) return;
+    // used to listen to the changes of content size so that the final height is calculated correctly
+    const observer = new ResizeObserver((entries) => {
+      for (let entry of entries) {
+        setHeight(entry.contentRect.height);
       }
-    }, 50);
+    });
 
-    return () => clearTimeout(subscribe);
-  }, [ref, data]);
+    observer.observe(ref.current);
+
+    return () => observer.disconnect();
+  }, [ref]);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
